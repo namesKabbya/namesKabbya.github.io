@@ -34,6 +34,7 @@ function App() {
       <h1 className="text-4xl font-bold mb-4 text-red-500 animate-pulse">
         🔴 Mangekyou Watchlist 🔴
       </h1>
+
       <input
         value={input}
         onChange={(e) => setInput(e.target.value)}
